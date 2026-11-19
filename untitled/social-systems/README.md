@@ -1,0 +1,17 @@
+---
+cover: ../.gitbook/assets/H.SOCIAL.png
+coverY: 0
+---
+
+# 👥 Social Systems
+
+_Building a community is better with friends._&#x20;
+
+AshBlossom SMP has a blend of independent and cooperative social systems that let players shape their own story. From land claims and protections that secure personal space to PvP and war mechanics that spark conflict, every player can carve out a unique path- peaceful, competitive, or somewhere in between.
+
+At the same time, the server encourages community-building through townships, friend groups, and even marriage systems that foster alliances and shared goals. Whether you prefer to stand alone or collaborate with others, we have a dynamic range of social landscapes where every connection—friendly or hostile—shapes the world.
+
+> ⚠️ Note: These features require a Rank. Check the [Store](https://store.ashblossom.com) to unlock them.
+
+***
+

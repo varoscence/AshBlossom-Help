@@ -20,14 +20,14 @@ Ranks are optional upgrades that support AshBlossom SMP and unlock extra command
 
 ### 🔥 Emberling
 
-_A tiny spark, destined to glow._
+*A tiny spark, destined to glow.*
 
 **✦ Commands**
 
 * `/sethome` — Set up to 2 homes
 * `/home` — Teleport to your homes
 * `/back` — Return to your last location
-* `/friend add` — Sends a friend request to another player
+* `/socials friend add` — Sends a friend request to another player
 
 **✦ Homes**
 
@@ -43,7 +43,7 @@ _A tiny spark, destined to glow._
 
 ### 🌸 Flamebound&#x20;
 
-_Tethered to the world's radiant embrace._
+*Tethered to the world's radiant embrace.*
 
 **✦ Includes everything from Emberling**
 
@@ -51,7 +51,7 @@ _Tethered to the world's radiant embrace._
 
 * `/head` — Decorative heads
 * `/tags favourite` — Cosmetic chat tags
-* `/ftp` — Instantly teleports you to a player if they are on your friend list
+* `/socials ftp` — Instantly teleports you to a player if they are on your friend list
 * Right click player sit ladder
 * Create up to 2 Player Warps
 
@@ -70,7 +70,7 @@ _Tethered to the world's radiant embrace._
 
 ### ✨ Starseeker&#x20;
 
-_Guided by distant starlight._
+*Guided by distant starlight.*
 
 **✦ Includes everything from Flamebound**
 
@@ -80,7 +80,7 @@ _Guided by distant starlight._
 * `/afk` — Toggle AFK status
 * `/glow` — Cosmetic glow
 * `/nick` — Nickname styling
-* `/marry` — Get married to another player
+* `/socials partner` — Become partners with another player
 * Create up to 3 Player Warps
 
 **✦ Homes**
@@ -98,7 +98,7 @@ _Guided by distant starlight._
 
 ### 🕊️ Ashwarden&#x20;
 
-_A guardian of balance and bloom._
+*A guardian of balance and bloom.*
 
 **✦ Includes everything from Starseeker**
 
@@ -124,7 +124,7 @@ _A guardian of balance and bloom._
 
 ### 🐦‍🔥 Phoenixborn&#x20;
 
-_Reborn in flame and legend._
+*Reborn in flame and legend.*
 
 **✦ Includes everything from Ashwarden**
 
@@ -150,7 +150,7 @@ _Reborn in flame and legend._
 
 ### 🌙 Everglow&#x20;
 
-_A light that never fades._
+*A light that never fades.*
 
 **✦ Includes everything from Phoenixborn**
 

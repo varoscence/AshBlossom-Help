@@ -8,7 +8,7 @@ description: This is AshBlossom SMP uniquely handcrafted mechanic.
 
 **What is the PvE Challenge?**
 
-The PvE Challenge is AshBlossom SMP's wave-based PVE gauntlet, available in **Solo**, **DUO**, and **GROUP** modes. Enter a private arena and face 15 escalating waves of named, geared, cursed elite mobs, ending in a boss fight against Vaelthorn, the Bound Sovereign. Each wave is harder than the last. Your completion time is permanently recorded on a leaderboard. The faster you finish, the higher you rank.
+The PvE Challenge is AshBlossom SMP's wave-based PVE gauntlet, available in **Solo**, **DUO**, and **GROUP** modes. Enter a private arena and face 15 escalating waves of named, geared, cursed elite mobs, ending in a boss fight against Vaelthorn, the Bound Sovereign. Each wave is harder than the last. Your completion time is recorded on a monthly leaderboard. The faster you finish, the higher you rank.
 
 ***
 
@@ -91,7 +91,7 @@ Every time you spawn or respawn you receive a full kit — free, every time.
 * Mace — Density V, Wind Burst III
 * War Axe — Sharpness V, Efficiency V, Looting III
 * Spear — Sharpness V, Lunge III, Fire Aspect II, Looting III
-* Bow — Power V, Flame I, Punch II _(64 arrows — no Infinity)_
+* Bow — Power V, Flame I, Punch II *(64 arrows — no Infinity)*
 * Shield
 
 **Consumables**
@@ -106,7 +106,7 @@ Every time you spawn or respawn you receive a full kit — free, every time.
 * 2× Fire Resistance Splash Potions (8 minutes)
 * 4× Healing Splash Potions
 
-Every item carries the inscription: _"Forged by fire, flora, and fauna to prepare the people of AshBlossom for Hard Times."_
+Every item carries the inscription: *"Forged by fire, flora, and fauna to prepare the people of AshBlossom for Hard Times."*
 
 ***
 
@@ -189,7 +189,9 @@ Beat it, and your time is recorded on the leaderboard.
 
 **Leaderboard**
 
-Only successful full-run completions (all 15 waves + the finale) are recorded. Your best time is saved permanently, per mode.
+Only successful full-run completions (all 15 waves + the finale) are recorded. Your best time is saved per mode.
+
+The leaderboard resets on the **1st of every month**, so there's always a fresh race for the fastest time. Each month's **Top 3 in Solo, Duo and Group** get an automatic reward.
 
 ```
 /pve leaderboard solo

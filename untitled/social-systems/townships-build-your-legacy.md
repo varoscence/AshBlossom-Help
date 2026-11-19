@@ -5,8 +5,6 @@ coverY: 0
 
 # 🏘️ Townships: Build Your Legacy
 
-
-
 In AshBlossom, you can gather your friends and establish a thriving community. Build a town, claim land, and level up to unlock powerful server bonuses. As a "Never Reset world" our systems are designed for slow, meaningful growth and long-term community building.
 
 > \[!IMPORTANT] You can only belong to one town at a time, and each town is led by one mayor.
@@ -17,12 +15,17 @@ In AshBlossom, you can gather your friends and establish a thriving community. B
 
 Every player has the power to start a settlement. Find an empty location and use the following:
 
+* Menu: `/town` — Opens the town menu. Everything below can also be done from there.
 * Establishment: `/town create <name>` — Start your journey (Example: `/town create Oakvale`).
 * Expansion: `/town claim` — Stand in a chunk to add it to your territory and protect your builds.
-* Unclaim Land: `/town unclaim` — Removes a specific town claim.
+* Unclaim Land: `/town unclaim` — Removes the town claim you're standing in.
+* Set Spawn: `/town setspawn` — Sets the location for the community hub.
 * Travel: `/town spawn` — Teleport back to your community hub.
-* Set Spawn: `/town setspawn` — Sets the location for the community hub (Members only).
 * Map View: `/town map` — View nearby chunks in a grid; highlights your current standing position.
+
+{% hint style="info" %}
+**Claim borders:** hold a **flint** and right-click to see the outline of the claim you're looking at.
+{% endhint %}
 
 ***
 
@@ -30,48 +33,62 @@ Every player has the power to start a settlement. Find an empty location and use
 
 Once your town is established, use these commands to manage your population:
 
-* `/town invite`: Invite a player to join your town.
-* `/town evict`: Remove a player from your town.
-* `/town promote`: Promote a Resident to a Trustee.&#x20;
-* `/town leave`: Leave your current town.
-* `/town disband`: Deletes the town (Mayor only).
+* `/town invite <player>`: Invite a player to join your town.
+* `/town accept`: Accept a town invite (or `/town decline`).
+* `/town evict <player>`: Remove a player from your town.
+* `/town promote <player>` / `/town demote <player>`: Move a member up or down a rank.
+* `/town members`: See everyone in your town, sorted by Tribute given, with their rank and when they were last online.
+* `/town leave`: Leave your current town. You have to type it twice.
+* `/town transfer <player> confirm`: Hand your town to another member (Mayor only).
+* `/town disband confirm`: Deletes the town (Mayor only).
 
 ***
 
 ### 👑 Town Roles & Permissions
 
-#### Mayor (Town Leader)
+#### Mayor & Co-Mayor (Town Leaders)
 
-The ultimate leader responsible for the town's identity and future.
+The leaders responsible for the town's identity and future. Co-Mayors have the same powers as the Mayor.
 
 * Identity: Set Town Description, Set Town Rules, Rename Town, Change Town Color.
-* Leadership: Evict Players, Promote/Demote Members, Declare War.
-* Growth: Upgrade Town Level (when enough points are available).
+* Leadership: Evict Players, Promote/Demote Members, Give out Professions, Declare War.
+* Growth: Level up the town (when enough Tribute is available).
 
 #### Trustee (Town Manager)
 
 Trusted assistants who handle the daily operations and maintenance.
 
 * Land & Plots: Claim/Unclaim Land, Set Farm Areas, Create/Manage Plots, Manage Plot Members.
-* Access: Trusted Access to restricted areas, Spawn Privacy, Set Town Spawn.
+* Access: Full access to all town claims, Spawn Privacy, Set Town Spawn.
 * Social: Invite Players, Set Greeting/Farewell Messages, Manage Town Relations, View Town Logs.
 
 #### Resident (Town Member)
 
 The core members who live in and support the settlement.
 
-* Contribution: Deposit to Town Treasury.
+* Contribution: Deposit Tribute.
 * Personal: Claim and manage personal building plots.
 * Social: Access the private Town Chat channel.
 * Travel: Teleport to the town spawn.
 
+#### How many leaders can a town have?
+
+The number of Co-Mayors and Trustees grows with your town level:
+
+| Town Level | Co-Mayors | Trustees |
+| ---------- | --------- | -------- |
+| 1          | 1         | 3        |
+| 5          | 1         | 4        |
+| 10         | 2         | 5        |
+| 15         | 2         | 6        |
+
 ***
 
-### 💎 Town Points & Upgrades
+### 💎 Tribute & Upgrades
 
-Towns run on Diamonds. By depositing diamonds, you earn Town Points used for leveling up.
+Towns run on Diamonds. By depositing diamonds, you give your town **Tribute**, which is used for leveling up.
 
-* Exchange Rate: `1 Diamond = 10 Town Points`
+* Exchange Rate: `1 Diamond = 10 Tribute`
 * Deposit Command: `/td <amount>`
 * Deposit All: `/tdall`
 
@@ -79,11 +96,13 @@ Towns run on Diamonds. By depositing diamonds, you earn Town Points used for lev
 No need to type your town name: The system automatically detects your town and deposits it for you.
 {% endhint %}
 
-{% hint style="danger" %}
-\[!CAUTION] Important: Once deposited, diamonds are permanently converted into points and cannot be withdrawn.
+{% hint style="info" %}
+**Diamond blocks count too:** a block counts as 9 diamonds. Loose diamonds are used first, and any change comes back to you as diamonds. Only plain diamonds count: renamed or custom items are never taken.
 {% endhint %}
 
-####
+{% hint style="danger" %}
+\[!CAUTION] Important: Once deposited, diamonds are permanently converted into Tribute and cannot be withdrawn.
+{% endhint %}
 
 #### 📈 Town Levels & Bonuses
 
@@ -91,8 +110,7 @@ No need to type your town name: The system automatically detects your town and d
 (**Default Claim Size:** Each claimed area is a 16x16 chunk)
 {% endhint %}
 
-Leveling up increases your member capacity, claim limits, and provides global buffs:\
-<br>
+Leveling up increases your member capacity, claim limits, and provides global buffs:
 
 | Level | Diamonds for this level | Total diamonds from new town | Max Members | Max Claims | Crop Growth | Spawner Bonus |
 | ----- | ----------------------- | ---------------------------- | ----------- | ---------- | ----------- | ------------- |
@@ -116,11 +134,10 @@ Leveling up increases your member capacity, claim limits, and provides global bu
 | 18    | 25,600                  | 122,070                      | 90          | 110        | +58%        | +28%          |
 | 19    | 31,500                  | 153,570                      | 95          | 116        | +59%        | +29%          |
 | 20    | 38,500                  | 192,070                      | 100         | 120        | +60%        | +30%          |
-|       |                         |                              |             |            |             |               |
 
 ### 📈 Progression & Rewards
 
-Towns level up by accumulating Town Points. When requirements are met, the Mayor runs `/town levelup` to increase member capacity, claim limits, and prestige.
+Towns level up with Tribute. When the town has enough, the Mayor or a Co-Mayor runs `/town level` to increase member capacity, claim limits, and prestige.
 
 #### Level Milestones
 
@@ -131,49 +148,120 @@ Towns level up by accumulating Town Points. When requirements are met, the Mayor
 
 #### Rewards Table
 
-| Milestone     | Reward Type                    | Description                                                             |
-| ------------- | ------------------------------ | ----------------------------------------------------------------------- |
-| Town Level 5  | Custom Town Tag                | A single color styled tag for your town.                                |
-| Town Level 10 | Enhanced Town Tag              | An upgraded gradient custom made appearance for your tag.               |
-| Town Level 18 | Marker in the server map.      | This will add a custom marker for your town in our official online map. |
-| Town Level 20 | Legendary Statue at spawn      | A permanent statue at Spawn recognizing your achievement.               |
-| Population 5  | Mayor Tag                      | Official "Mayor" title for the leader. Single Color                     |
-| Population 10 | Co-Mayor Tag                   | Official "Co-Mayor" title for the second leader. Single Color           |
-| Population 15 |                                |                                                                         |
-| Population 20 | Enhanced Mayor & Co -Mayor tag | A prestigious Gold Mayor & Co Mayor  tag.                               |
+Every reward unlocks automatically, and your town is told the moment it does. See them all in-game with `/town rewards`.
+
+| Town Level | Reward | Description |
+| ---------- | ------ | ----------- |
+| 3 | Profession: Gatherer | Luck. See Professions below. |
+| 5 | Custom Town Tag | A single color tag for your town, made with `/town tag create <TAG>`. |
+| 5 | Mayor Tag | Official "Mayor" tag for the leader. |
+| 6 | Profession: Miner | Haste. |
+| 8 | Welcome Chest | A town chest that gives every new member a starter kit. |
+| 9 | Profession: Redstoner | Night Vision. |
+| 10 | Enhanced Town Tag | A gradient tag with a second color. |
+| 10 | Co-Mayor Tag | Official "Co-Mayor" tag. |
+| 12 | Profession: Builder | Jump Boost. |
+| 15 | Enhanced Mayor & Co-Mayor Tags | Prestigious gradient Mayor and Co-Mayor tags. |
+| 15 | Spawn Particles | Cherry leaves drift around your town spawn. |
+| 15 | Profession: Postmaster | Speed. |
+| 18 | Marker on the Online Map | Your town shows on our official online map. Your town needs a spawn. |
+| 18 | Profession: Farmer | You get hungry half as fast. |
+| 20 | Server Celebration | An announcement to the whole server and fireworks at your town spawn. |
+
+#### 🏷️ Town Tags
+
+* A town tag is 2 to 5 capital letters or numbers, and every town's tag is different.
+* Once your town has a tag, every member can wear it from `/tags`. It shows in your town color.
+* Members who leave the town lose the tag.
+
+#### ⚒️ Professions
+
+The Mayor and Co-Mayors can give each member one profession. Each profession can be held by one member per town.
+
+| Profession | Unlocks at | Effect |
+| --- | --- | --- |
+| Gatherer | Level 3 | Luck |
+| Miner | Level 6 | Haste |
+| Redstoner | Level 9 | Night Vision |
+| Builder | Level 12 | Jump Boost |
+| Postmaster | Level 15 | Speed |
+| Farmer | Level 18 | Get hungry half as fast |
+
+* `/town profession` — See every profession and who holds it.
+* `/town profession set <player> <profession>` — Give a member a profession.
+* `/town profession clear <player>` — Take a profession away.
+
+**Leader bonus:** the Mayor and Co-Mayors also get Haste.
+
+#### 🏅 Patron of the Month
+
+Each town's top Tribute giver of the month gets the **Patron** tag. If someone gives more, it moves to them. It resets on the 1st of every month.
+
+#### 🎁 Welcome Chest
+
+From level 8, Trustees and above can open `/town welcomechest` and put one kit in each slot (a filled shulker box works great). Every new member gets the next kit when they join. If their inventory is full, they can collect it later with `/town kit`. Each player only gets one kit per town.
+
+#### 🎆 Town Anniversary
+
+Every year on the day your town was founded, your town gets a message and fireworks at its spawn.
+
+***
+
+#### 🌾 Farms, Plots & Ally Claims
+
+Every claim can be one of these types:
+
+* **Normal claim:** Trustees and above can build. Residents can use doors and buttons.
+* **Farm** (`/town farm`): Residents can farm, use doors and buttons, open chests and hit mobs.
+* **Plot** (`/town plot`): A personal plot. Residents can claim one with `/town plot claim`, and add others with `/town plot add <player>`. Plot members can do everything in their plot, even if they're from another town.
+* **Ally claim** (`/town allyclaim`): A shared storehouse. Members of your town and of your allied towns can build, farm, use doors and open chests there. Both towns must have set each other as allies. Choose which allies can use it with `/town allyclaim add <town>` and `/town allyclaim remove <town>`.
+
+{% hint style="info" %}
+**Town Rules:** the Mayor and Co-Mayors can open `/town rules` to choose what visitors can do in your claims, farms and plots: build, farm, interact, open containers, mob spawning, fire, PvP, explosions and mob griefing.
+{% endhint %}
 
 ***
 
 #### 📜 Full Command Reference
 
-| Command                  | Description                                        |
-| ------------------------ | -------------------------------------------------- |
-| /town help               | View the full list of town commands.               |
-| /town about \[town]      | View detailed information about a town.            |
-| /town list               | View all active towns.                             |
-| /town invite \<player>   | Invite a player to join your town.                 |
-| /town invite accept      | Accept Invite                                      |
-| /town claim              | Claim the chunk you are standing in.               |
-| /town unclaim            | Remove the claim from your current chunk.          |
-| /town autoclaim          | Toggle auto-claiming as you walk.                  |
-| /town map                | View a visual map of nearby town claims.           |
-| /town spawn              | Teleport to your town's spawn point.               |
-| /town setspawn           | Set the teleport location for `/town spawn`.       |
-| /town promote/demote     | Manage the roles/hierarchy of your members.        |
-| /town evict \<player>    | Remove a member from the town.                     |
-| /town leave              | Leave your current town.                           |
-| /town chat               | Toggle private town chat.                          |
-| /town farm/plot          | Designate claims as public farms or private plots. |
-| /town rules              | Edit your town's internal rules.                   |
-| /town level              | Pay to level-up the town and unlock bonuses.       |
-| /town deposit/withdraw   | Manage the town's money coffers.                   |
-| /town log                | View the town's audit log (recent actions).        |
-| /town relations          | Manage alliances or rivalries with other towns.    |
-| /town war                | View and declare wars (if enabled).                |
-| /town bio/rename         | Edit the town's description or name.               |
-| /town greeting/farewell  | Edit enter/exit messages for your land.            |
-| /town transfer \<player> | Transfer town ownership to another member.         |
-| /town disband            | Permanently delete the town.                       |
+| Command | Description |
+| --- | --- |
+| /town | Open the town menu. |
+| /town help | View the full list of town commands. |
+| /town about \[town] | View detailed information about a town. |
+| /town list | View all towns. Sort by level, members, tribute, claims or name. |
+| /town towns \[search] | Search all towns by name, tag or member. |
+| /town members \[town] | See every member with their rank and Tribute given. |
+| /town census \[town] / /town deeds \[town] | See a town's members and ranks, or its claimed chunks. |
+| /town player \<name> | See a player's town and rank. |
+| /town invite \<player> | Invite a player to join your town. |
+| /town accept / decline | Answer a town invite. |
+| /town claim / unclaim | Claim or remove the chunk you are standing in. |
+| /town autoclaim | Toggle auto-claiming as you walk. |
+| /town map | View a visual map of nearby town claims. |
+| /town spawn \[town] | Teleport to a town's spawn point. |
+| /town setspawn / clearspawn | Set or remove your town spawn. |
+| /town privacy \<public\|private> | Choose whether other players can visit your town spawn. |
+| /town promote/demote \<player> | Manage the roles/hierarchy of your members. |
+| /town evict \<player> | Remove a member from the town. |
+| /town leave | Leave your current town. |
+| /town chat \[message] | Send a town chat message, or toggle town chat. |
+| /town farm / plot / allyclaim | Change the type of the claim you're standing in. |
+| /town rules | Choose what visitors can do in your land. |
+| /town level | Pay Tribute to level up the town and unlock bonuses. |
+| /town rewards | See every level reward. |
+| /town deposit \<amount\|all> | Deposit diamonds as Tribute (same as `/td`). |
+| /town tag create \<TAG> / clear | Create or remove your town tag. |
+| /town profession | See and give out professions. |
+| /town welcome \<text\|clear> | A message every new member gets when they join. |
+| /town welcomechest / kit | Fill the welcome chest, or collect your kit. |
+| /town log | View the town's audit log (recent actions). |
+| /town relations | Manage alliances or rivalries with other towns. |
+| /town war | View and declare wars. |
+| /town bio/rename/color | Edit the town's description, name or color. |
+| /town greeting/farewell | Edit enter/exit messages for your land. |
+| /town transfer \<player> confirm | Transfer town ownership to another member. |
+| /town disband confirm | Permanently delete the town. |
 
 ***
 
@@ -182,12 +270,16 @@ Towns level up by accumulating Town Points. When requirements are met, the Mayor
 Towns can declare war if both sides agree to the conflict. Use the following commands to initiate the process:
 
 * Set Enemy Town: `/town relations set enemy <town>`
-* Declare War: `/town war declare <town>`
+* Declare War: `/town war declare <town> <wager>`
+* Answer a Declaration: `/town war accept` or `/town war decline`
+* Give Up: `/town war surrender`
 
 #### 📋 Requirements & Matchmaking
 
-* Declaration Acceptance: The war declaration must be accepted by the defending town within 10 hours, or the request will expire.
-* Player Turnout: At least 25% of each town's members must be online to initiate the war.
+* Enemies Only: You can only declare war on a town you've set as an enemy.
+* Declaration Acceptance: The defending town has **10 minutes** to accept, or the declaration expires.
+* Player Turnout: At least 25% of each town's members must be online to start the war.
+* The Wager: Both towns put the same amount of Tribute at stake. Both towns must be able to afford it. The winner takes both wagers.
 * Roster Submission: Both towns must compile and exchange a complete list of all participating town members prior to the match to ensure accurate counting and prevent unfairness.
 
 ### 🛑 The Main Rule: No Hiding, No Camping!
@@ -196,12 +288,14 @@ Towns can declare war if both sides agree to the conflict. Use the following com
 
 ### 🏟️ The War Zone & Mechanics
 
-* The Battlefield: Battles take place within a 128-block zone centered around the defending town's spawn.
-* Boundary Restriction: Combatants must not leave a 160-block radius of the town spawn. Crossing this boundary results in immediate removal from the battle.
-* Commencement: If the defending `<town>` accepts, all online members of both towns will be automatically teleported to the zone to begin fighting.
-* Elimination: When a user dies, they are removed from the battle.
-* Victory Condition: A war is officially lost when a town has zero remaining online combatants on the battlefield.
+* Commencement: When the defending town accepts, all online members of both towns are teleported to the defending town's spawn. Defenders start at the spawn, and attackers start a short distance away.
+* The Battlefield: The war zone is a **160-block radius** around the defending town's spawn, marked by a red wall of particles.
+* Elimination: Dying, leaving the war zone or logging off removes you from the battle.
+* Victory Condition: A town loses when it has no fighters left. The winner takes both wagers.
+* Surrender: A town can surrender at any time. The other town wins.
+* Time Limit: A war lasts at most **3 hours**. If time runs out, it's a stalemate and both wagers are lost.
 * Truce Period: After a war concludes, a mandatory 7-day truce is enforced before either town can declare or accept another war.
+* War Honors: Every war your town wins is counted and shown in `/town about`.
 
 ### 💰 Rewards, Spoils, & Risks
 
@@ -214,9 +308,9 @@ Before the war begins, both towns must formally agree upon the stakes and reward
 
 #### Combat Risks
 
-* Inventory Loss: All inventory could be permanently lost upon death, unless both sides explicitly agree _before the war_ to return items to their rightful owners.
+* Inventory Loss: All inventory could be permanently lost upon death, unless both sides explicitly agree *before the war* to return items to their rightful owners.
 * Town Griefing: Town griefing is enabled/possible during the conflict. Be hyper-aware of your claims and protect your assets.
-* Allies & Reinforcements: Allies from outside towns are permitted to show up and assist. While this may unbalance the war, it highlights why diplomatic alliances are critically important.
+* Allies & Reinforcements: Allies from outside towns are permitted to show up and assist. They don't count as fighters for the victory condition, but they can change the outcome, which is why diplomatic alliances are critically important.
 
 ### ⚠️ Inactivity Policy
 
@@ -226,79 +320,7 @@ To keep the world healthy and free up land for new communities:
 
 ***
 
-{% hint style="info" icon="sparkle" %}
-#### Please open a [Ticket ](https://discord.com/channels/1466579163623194686/1468294775923937390)to claim your town rewards
-{% endhint %}
-
-#### Town Gamerules:
-
-Mayor and Co-Mayors can change rules for town claims.
-
-```yaml
-  public container access:
-    - container open
-
-  public interact access:
-    - ender pearl teleport
-    - entity interact
-    - redstone interact
-    - block interact
-
-  public farm access:
-    - block interact
-    - farm block break
-    - farm block place
-    - place vehicle
-    - player damage entity
-    - break vehicle
-    - farm block interact
-
-  public build access:
-    - entity interact
-    - redstone interact
-    - start raid
-    - empty bucket
-    - break hanging entity
-    - block interact
-    - break vehicle
-    - ender pearl teleport
-    - place hanging entity
-    - farm block interact
-    - player damage monster
-    - player damage persistent entity
-    - container open
-    - farm block place
-    - place vehicle
-    - use spawn egg
-    - block break
-    - block place
-    - fill bucket
-    - player damage entity
-
-  monster spawning:
-    - player damage monster
-    - monster spawn
-    - passive mob spawn
-
-  fire damage:
-    - fire spread
-    - fire burn
-
-  pvp:
-    - player damage player
-
-  explosion damage:
-    - explosion damage terrain
-    - explosion damage entity
-
-  mob griefing:
-    - monster damage terrain
-```
-
 #### ⚠️ Important Guidelines
 
-* No Diamond Blocks: Please deposit regular diamonds only. The system may miscount blocks, resulting in lost points.
-* Expansion Space: Do not build too close to existing towns. If you block another town's growth, your claims may be removed.
+* Expansion Space: Towns must be at least 8 chunks apart. Do not build too close to existing towns. If you block another town's growth, your claims may be removed.
 * Island Sovereignty: Towns on islands own the entire island. Unauthorized builds on a town's island will be removed.
-
-<br>

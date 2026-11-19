@@ -4,7 +4,7 @@
 
 ### ⌨️ Server Commands
 
-_Master these shortcuts to navigate the world and manage your adventure._
+*Master these shortcuts to navigate the world and manage your adventure.*
 
 #### 🛠️ General Information
 
@@ -34,6 +34,33 @@ _Master these shortcuts to navigate the world and manage your adventure._
 * /sethome \<name> — Save your current location as a home.
 * /home \<name> — Teleport back to a saved home.
 * /delhome \<name> — Remove a saved home.
+
+#### 🌀 Player Warps
+
+* /pw — Browse player warps.
+* /pw \<name> — Teleport to a player warp.
+* /pw create \<name> — Create your own warp (rank perk).
+* /pw rate \<name> \<1-5> — Rate a warp.
+* /pw save \<name> — Save a warp to your favorites.
+* /pw search \<text> — Find a warp.
+
+#### 🤝 Socials
+
+* /socials — Open the menu for your friends, bestie and partner.
+* /socials friend add \<player> — Send a friend request.
+* /socials ftp \<player> — Teleport to a friend.
+* /socials help — See every Socials command.
+
+#### 🏘️ Towns
+
+* /town — Open the town menu.
+* /town help — See every town command.
+* /td \<amount> — Deposit diamonds into your town as Tribute.
+
+#### 🎣 Fishing
+
+* /fish — Open the fishing menu: bait shop, journal and help.
+* /fish top — See this month's longest fish.
 
 ***
 

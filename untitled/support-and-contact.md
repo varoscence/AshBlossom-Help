@@ -20,7 +20,7 @@ Please use tickets for:
 * Purchase or Store issues.
 * Reporting griefing or rule-breakers.
 * Technical support and connection issues.
-* Requesting an official Marriage ceremony.
+* Requesting an official Partner ceremony.
 
 ***
 
@@ -39,4 +39,3 @@ To help us resolve your issue quickly, please include:
 1. Your In-Game Name (IGN) — specify if you are a Bedrock player (with the `*`).
 2. The World/Dimension — are you in the Overworld, Zoralis, or the Art World?
 3. Screenshots or Coordinates — visual evidence helps us track down problems much faster!
-

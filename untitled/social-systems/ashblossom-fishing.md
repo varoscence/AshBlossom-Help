@@ -17,16 +17,14 @@ Every fish you catch is saved in your **Fish Journal**, forever.
 
 ### Commands
 
-| Command           | What it does                                                 |
-| ----------------- | ------------------------------------------------------------ |
-| `/emf gui`        | Opens the fishing menu: the bait shop, your journal and help |
-| `/emf applybaits` | Opens a menu to put baits on the rod in your hand            |
-| `/emf journal`    | Shows every fish you've caught                               |
-| `/emf toggle`     | Turns custom fishing on or off for you                       |
-| `/emf top`        | Shows the leaderboard of the fishing contest that's running  |
-| `/emf next`       | Shows when the next fishing contest starts                   |
-| `/fishtop`        | Shows this month's longest fish in each rarity               |
-| `/emf help`       | Lists all of these commands in-game                          |
+| Command | What it does |
+| --- | --- |
+| `/fish` | Opens the fishing menu: the bait shop, your journal and help |
+| `/fish applybaits` | Opens a menu to put baits on the rod in your hand |
+| `/fish journal` | Shows every fish you've caught |
+| `/fish toggle` | Turns custom fishing on or off for you |
+| `/fish top` | Shows this month's longest fish in each rarity |
+| `/fish help` | Lists all of these commands in-game |
 
 ***
 
@@ -46,7 +44,7 @@ Fish that are real fish items (**cod, salmon, tropical fish and pufferfish**) ca
 
 Baits make certain fish more likely to bite. You buy them with **diamonds**, which is the only currency the bait shop takes.
 
-**To buy:** run `/emf gui`, click **View Baits**, then click a bait **twice** to confirm. The diamonds come straight out of your inventory.
+**To buy:** run `/fish`, click **View Baits**, then click a bait **twice** to confirm. The diamonds come straight out of your inventory.
 
 | Bait           | Price  | What it does                                                                |
 | -------------- | ------ | --------------------------------------------------------------------------- |
@@ -69,11 +67,9 @@ Baits make certain fish more likely to bite. You buy them with **diamonds**, whi
 You must be in **Survival** mode. There are two ways:
 
 1. **Drag and drop:** open your inventory (**E**), pick up the bait, and click it **onto your fishing rod**. Hold **Shift** while doing it to apply the whole stack.
-2. **Menu:** hold your fishing rod and run `/emf applybaits`. Put your baits in the menu, then close it.
+2. **Menu:** hold your fishing rod and run `/fish applybaits`. Put your baits in the menu, then close it.
 
 The baits on your rod are listed in its tooltip.
-
-> Baits **don't work during fishing contests**. Everyone competes on equal terms!
 
 ***
 
@@ -84,7 +80,7 @@ Every month there's a race for the **longest Legendary, Epic and Rare fish**.
 * Your **longest** fish of each rarity is your entry. Catch a longer one and it replaces it.
 * You can only hold one spot per rarity, but you can be on all three boards.
 * If two fish are the exact same length, whoever caught theirs first keeps the spot.
-* Check the standings with `/fishtop` or on the leaderboard hologram at spawn.
+* Check the standings with `/fish top` or on the leaderboard hologram at spawn.
 
 **At the end of each month, the #1 in each rarity wins:**
 
@@ -98,12 +94,18 @@ Prizes are given automatically, even if you're offline. The board resets on the 
 
 ***
 
-### 🐟 Fishing Contests
+### ♻️ Composting, Lava & Cactus
 
-Every so often a **fishing contest** starts for the whole server. A bar at the top of your screen shows that it's running and how much time is left.
+Fish behave like normal items:
 
-* `/emf top` shows the contest leaderboard.
-* `/emf next` shows when the next one starts.
+* **Composting:** right-click a composter with a fish to compost it. Just like other items, not every fish adds a layer.
+* **Lava, fire and cactus** destroy fish and baits, so keep your trophies away from them!
+
+***
+
+### 🍄 The Nate-Fish
+
+A very special Legendary fish, made in honor of Nate, the first player to collect every fish. Good luck catching it!
 
 ***
 

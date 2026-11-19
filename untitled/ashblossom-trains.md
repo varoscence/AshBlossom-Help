@@ -58,6 +58,7 @@ Only the player in the front car can open the controls. Nobody can sit in the lo
 | **Forward / Reverse**              | Changes direction (the train stops first)               |
 | **Auto**                           | Lets the train run by itself (see below)                |
 | **Smoke**                          | Left-click: Low / Medium / High. Right-click: on or off |
+| **Horn**                           | Sounds the train horn                                   |
 | **Add fuel**                       | Click fuel in your own inventory to load it             |
 
 If you get out of the front car while driving, the train brakes to a stop (unless it's on Auto).
@@ -135,4 +136,4 @@ Your train looks after itself:
 
 ***
 
-_Happy travels! 🌸_
+*Happy travels! 🌸*

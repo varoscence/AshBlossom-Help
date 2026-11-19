@@ -20,5 +20,6 @@ Every few minutes a new game pops up in chat. Type your answer as a normal chat 
 
 Sometimes staff start a **Shuffle Round**: one question from every game type, back to back.
 
-> [!TIP]
-> Answers are short: usually one word, name or number. Speed matters, so keep your chat open!
+{% hint style="success" %}
+Answers are short: usually one word, name or number. Speed matters, so keep your chat open!
+{% endhint %}

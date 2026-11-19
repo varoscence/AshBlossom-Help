@@ -23,5 +23,6 @@ If you're left alone on a platform far behind everyone else, you get a 5-second 
 
 Be the last player still on a platform.
 
-> [!TIP]
-> Keep moving. Standing still makes you an easy target, and the floor can disappear under you at any moment.
+{% hint style="success" %}
+Keep moving. Standing still makes you an easy target, and the floor can disappear under you at any moment.
+{% endhint %}

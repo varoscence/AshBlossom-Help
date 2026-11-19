@@ -16,5 +16,6 @@ Pick a corner and hope it stays. The last player standing wins!
 
 Be the last player left on a platform.
 
-> [!TIP]
-> Don't follow the crowd. A busy corner is no safer than an empty one.
+{% hint style="success" %}
+Don't follow the crowd. A busy corner is no safer than an empty one.
+{% endhint %}

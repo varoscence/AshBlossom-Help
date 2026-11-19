@@ -15,5 +15,6 @@ Claim the hill and knock everyone else off it!
 
 Be the last player remaining on the hill.
 
-> [!TIP]
-> The edges are dangerous. Fight from the middle and let others come to you.
+{% hint style="success" %}
+The edges are dangerous. Fight from the middle and let others come to you.
+{% endhint %}

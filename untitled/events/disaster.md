@@ -51,5 +51,6 @@ Look for light beams with a floating name. You can see them through walls.
 | Vampire | A player becomes a red-glowing vampire with a deadly gold sword. Disasters can't hurt them, but you can. |
 | Nuke | Get off the yellow zone before it goes off, then stay out of the glowing green crater. |
 
-> [!TIP]
-> You can punch out fire on the ground. High ground beats Flood, roofs beat Acid Rain and Solar Flare, and standing still loses to Fragile Ground.
+{% hint style="success" %}
+You can punch out fire on the ground. High ground beats Flood, roofs beat Acid Rain and Solar Flare, and standing still loses to Fragile Ground.
+{% endhint %}

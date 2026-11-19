@@ -15,5 +15,6 @@ Hidden items are scattered around the world. Can you find them all?
 
 Find every hidden item in the hunt. When you find the last one, you get a celebration, plus a reward when the hunt has one. If you're the **first to finish**, you're told, and so are the staff.
 
-> [!TIP]
-> Look up, look down and look behind things. The best hiding spots are the ones you walk past every day.
+{% hint style="success" %}
+Look up, look down and look behind things. The best hiding spots are the ones you walk past every day.
+{% endhint %}

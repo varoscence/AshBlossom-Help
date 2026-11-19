@@ -25,8 +25,9 @@ About 10 minutes before an event starts, staff open the way in. Jump through the
 
 Winners are announced in chat. Many events also give a reward just for taking part.
 
-> [!TIP]
-> Empty your inventory before you join. Some games clear or replace your inventory when they start.
+{% hint style="success" %}
+Empty your inventory before you join. Some games clear or replace your inventory when they start.
+{% endhint %}
 
 ### 📸 After the event
 

@@ -23,8 +23,10 @@ There are two teams.
 
 The first runner to complete all 5 levels wins!
 
-> [!TIP]
-> The doors open in a sweep from one side, and the side changes every round. Watch which half opens first.
+{% hint style="success" %}
+The doors open in a sweep from one side, and the side changes every round. Watch which half opens first.
+{% endhint %}
 
-> [!WARNING]
-> Your inventory may be cleared at the start, so don't bring anything you want to keep.
+{% hint style="warning" %}
+Your inventory may be cleared at the start, so don't bring anything you want to keep.
+{% endhint %}

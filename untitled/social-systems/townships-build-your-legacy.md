@@ -81,6 +81,10 @@ The number of Co-Mayors and Trustees grows with your town level:
 | 5          | 1         | 4        |
 | 10         | 2         | 5        |
 | 15         | 2         | 6        |
+| 21 (City)  | 3         | 8        |
+| 31         | 3         | 10       |
+| 41 (Empire)| 4         | 12       |
+| 51         | 5         | 15       |
 
 ***
 
@@ -145,6 +149,22 @@ Towns level up with Tribute. When the town has enough, the Mayor or a Co-Mayor r
 * Levels 6–10: Require consistent teamwork.
 * Levels 11–15: Represent established, thriving towns.
 * Levels 16–20: Elite achievements for the most dedicated.
+* Levels 21–40: **City**, for towns that keep growing.
+* Levels 41–60: **Empire**, the legends of AshBlossom.
+
+#### 🏙️ Town, City & Empire
+
+Every 20 levels, your town moves up a tier:
+
+| Tier | Levels | What happens |
+| --- | --- | --- |
+| 🏘️ Town | 1–20 | Where every community starts. |
+| 🏙️ City | 21–40 | Announced to the whole server with fireworks. Professions from the Town tier get one level stronger. |
+| 👑 Empire | 41–60 | Announced to the whole server with fireworks. Professions from earlier tiers get one level stronger again, and your town name is shown as ✦ Name ✦. |
+
+{% hint style="info" %}
+The Tribute cost, member limit and claim limit for levels 21 to 60 will be added to the table above when City and Empire open.
+{% endhint %}
 
 #### Rewards Table
 
@@ -167,6 +187,22 @@ Every reward unlocks automatically, and your town is told the moment it does. Se
 | 18 | Marker on the Online Map | Your town shows on our official online map. Your town needs a spawn. |
 | 18 | Profession: Farmer | You get hungry half as fast. |
 | 20 | Server Celebration | An announcement to the whole server and fireworks at your town spawn. |
+| 20 | Town Tier Complete | Mayor and Town tags in the Discord, and a unique item for the top 5 members, handed out by staff. |
+| 21 | Becomes a City 🏙️ | Server announcement, fireworks, and Town-tier professions one level stronger. |
+| 23 | Profession: Fisher | Luck and Dolphin's Grace. |
+| 25 | Town Warp | One town warp that members and visitors can use. |
+| 27 | Profession: Diver | Water Breathing and Conduit Power. |
+| 31 | Profession: Explorer | Speed and Slow Falling. |
+| 35 | Profession: Merchant | Hero of the Village. |
+| 39 | Profession: Guard | Resistance. |
+| 41 | Becomes an Empire 👑 | Server announcement, fireworks, earlier professions one level stronger, and the ✦ Name ✦ style. |
+| 44 | Profession: Sage | Fire Resistance. |
+| 50 | Profession: Healer | Regeneration. |
+| 50 | Hall of Empires | Your town banner on the Hall of Empires wall at spawn, placed by staff. |
+| 55 | Custom Join Message | A message the whole server sees when one of your members joins. |
+| 56 | Profession: Champion | Strength. |
+| 60 | Profession: Archon | Luck, Haste and Speed. |
+| 60 | Legendary Statue | A server announcement, fireworks, and a permanent statue at Spawn, built by staff. |
 
 #### 🏷️ Town Tags
 
@@ -186,12 +222,23 @@ The Mayor and Co-Mayors can give each member one profession. Each profession can
 | Builder | Level 12 | Jump Boost |
 | Postmaster | Level 15 | Speed |
 | Farmer | Level 18 | Get hungry half as fast |
+| Fisher | Level 23 | Luck, Dolphin's Grace |
+| Diver | Level 27 | Water Breathing, Conduit Power |
+| Explorer | Level 31 | Speed, Slow Falling |
+| Merchant | Level 35 | Hero of the Village |
+| Guard | Level 39 | Resistance (off during wars) |
+| Sage | Level 44 | Fire Resistance |
+| Healer | Level 50 | Regeneration (off during wars) |
+| Champion | Level 56 | Strength (off during wars) |
+| Archon | Level 60 | Luck, Haste, Speed |
 
 * `/town profession` — See every profession and who holds it.
 * `/town profession set <player> <profession>` — Give a member a profession.
 * `/town profession clear <player>` — Take a profession away.
 
 **Leader bonus:** the Mayor and Co-Mayors also get Haste.
+
+**Tier bonus:** when your town becomes a City, and again when it becomes an Empire, every profession unlocked in an earlier tier gets one level stronger (for example Haste I becomes Haste II). Effects without levels, like Night Vision or Fire Resistance, stay the same.
 
 #### 🏅 Patron of the Month
 
@@ -200,6 +247,18 @@ Each town's top Tribute giver of the month gets the **Patron** tag. If someone g
 #### 🎁 Welcome Chest
 
 From level 8, Trustees and above can open `/town welcomechest` and put one kit in each slot (a filled shulker box works great). Every new member gets the next kit when they join. If their inventory is full, they can collect it later with `/town kit`. Each player only gets one kit per town.
+
+#### 🌀 Town Warps (Level 25)
+
+* `/town setwarp <name>` — Set a town warp where you stand, inside your claims (Trustees and above).
+* `/town warp <name>` — Teleport to one of your town's warps.
+* `/town warp <town> <name>` — Visit another town's warp, if that town's spawn is public.
+* `/town warps` — List the warps.
+* `/town delwarp <name>` — Delete a warp.
+
+#### 📣 Custom Join Message (Level 55)
+
+The Mayor and Co-Mayors can set a message with `/town joinmessage <text>`. Everyone online sees it when one of your members joins. Use `{player}` for the member's name.
 
 #### 🎆 Town Anniversary
 
@@ -255,6 +314,8 @@ Every claim can be one of these types:
 | /town profession | See and give out professions. |
 | /town welcome \<text\|clear> | A message every new member gets when they join. |
 | /town welcomechest / kit | Fill the welcome chest, or collect your kit. |
+| /town setwarp / warp / warps / delwarp | Manage and use town warps (level 25). |
+| /town joinmessage <text> | Set your custom join message (level 55). |
 | /town log | View the town's audit log (recent actions). |
 | /town relations | Manage alliances or rivalries with other towns. |
 | /town war | View and declare wars. |

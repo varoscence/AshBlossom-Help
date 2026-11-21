@@ -47,3 +47,6 @@
   * [🖼️ Invisible Item Frames](customization/invisible-item-frames.md)
 * [⚙️ Technical Limits & Entity Caps](technical-limits-and-entity-caps.md)
 * [🆘 Support & Contact](support-and-contact.md)
+* [🛠️ Website Text](website-text/README.md)
+  * [👥 Staff Team](website-text/staff-team.md)
+  * [🏠 Home Page](website-text/home-page.md)

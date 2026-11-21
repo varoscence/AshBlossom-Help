@@ -62,7 +62,7 @@ Explore the whole world in real time.
 
 ## Store card
 
-Support the server. Completely optional.
+Support the server. Completely optional. (sync test)
 
 ## Realm title
 

@@ -176,7 +176,6 @@ Every reward unlocks automatically, and your town is told the moment it does. Se
 | 5 | Custom Town Tag | A single color tag for your town, made with `/town tag create <TAG>`. |
 | 5 | Mayor Tag | Official "Mayor" tag for the leader. |
 | 6 | Profession: Miner | Haste. |
-| 8 | Welcome Chest | A town chest that gives every new member a starter kit. |
 | 9 | Profession: Redstoner | Night Vision. |
 | 10 | Enhanced Town Tag | A gradient tag with a second color. |
 | 10 | Co-Mayor Tag | Official "Co-Mayor" tag. |
@@ -244,10 +243,6 @@ The Mayor and Co-Mayors can give each member one profession. Each profession can
 
 Each town's top Tribute giver of the month gets the **Patron** tag. If someone gives more, it moves to them. It resets on the 1st of every month.
 
-#### 🎁 Welcome Chest
-
-From level 8, Trustees and above can open `/town welcomechest` and put one kit in each slot (a filled shulker box works great). Every new member gets the next kit when they join. If their inventory is full, they can collect it later with `/town kit`. Each player only gets one kit per town.
-
 #### 🌀 Town Warps (Level 25)
 
 * `/town setwarp <name>` — Set a town warp where you stand, inside your claims (Trustees and above).
@@ -313,7 +308,6 @@ Every claim can be one of these types:
 | /town tag create \<TAG> / clear | Create or remove your town tag. |
 | /town profession | See and give out professions. |
 | /town welcome \<text\|clear> | A message every new member gets when they join. |
-| /town welcomechest / kit | Fill the welcome chest, or collect your kit. |
 | /town setwarp / warp / warps / delwarp | Manage and use town warps (level 25). |
 | /town joinmessage <text> | Set your custom join message (level 55). |
 | /town log | View the town's audit log (recent actions). |

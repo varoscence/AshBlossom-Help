@@ -22,7 +22,7 @@ These ranges prevent hyper-inflation and keep the economy moving. Following thes
 * All shopkeepers must be in use and not kept in chests. If you no longer need your shopkeeper, return it to staff for later use.
 * Prices are min–max. Example: "2–4 Diamonds" means 2 Diamonds minimum, 4 Diamonds maximum.
 * Items marked (Any Color) share one price across all colours.
-* Updated for Minecraft 1.21.11.
+* Updated for Minecraft 26.3.
 
 ***
 
@@ -44,40 +44,44 @@ These ranges prevent hyper-inflation and keep the economy moving. Following thes
 | Bamboo Blocks / Mosaic             | 4–8 Diamonds / stack  |
 | Pressure Plates (Wood)             | 2–5 Diamonds / stack  |
 | Buttons (Wood)                     | 2–5 Diamonds / stack  |
-| Shelves (All 12 Types)             | 4–10 Diamonds         |
+| Shelves (All Types)                | 4–10 Diamonds         |
 
 ***
 
 ### 🧱 Stone Shop
 
-| Item                                         | Price Range           |
-| -------------------------------------------- | --------------------- |
-| Stone / Cobblestone                          | 1–4 Diamonds / stack  |
-| Granite / Diorite / Andesite                 | 1–4 Diamonds / stack  |
-| Deepslate (All Variants)                     | 1–4 Diamonds / stack  |
-| Tuff (All Variants)                          | 2–6 Diamonds / stack  |
-| Calcite                                      | 2–6 Diamonds / stack  |
-| Smooth Stone                                 | 1–4 Diamonds / stack  |
-| Quartz Block / Bricks                        | 4–10 Diamonds / stack |
-| End Stone                                    | 1–4 Diamonds / stack  |
-| Stone Bricks                                 | 1–4 Diamonds / stack  |
-| Deepslate Bricks / Tiles                     | 2–6 Diamonds / stack  |
-| Tuff Bricks                                  | 2–6 Diamonds / stack  |
-| Polished Variants                            | 2–6 Diamonds / stack  |
-| Gravel                                       | 1–4 Diamonds / stack  |
-| Sandstone                                    | 2–6 Diamonds / stack  |
-| Red Sandstone                                | 2–6 Diamonds / stack  |
-| Walls (All Types)                            | 2–6 Diamonds / stack  |
-| Mossy Cobblestone / Mossy Stone Bricks       | 2–6 Diamonds / stack  |
-| Chiseled Variants (All Types)                | 2–6 Diamonds / stack  |
-| Purpur Block / Pillar / Slab / Stairs        | 2–6 Diamonds / stack  |
-| Dripstone Block / Pointed Dripstone          | 2–6 Diamonds / stack  |
-| Bricks (Clay)                                | 2–6 Diamonds / stack  |
-| Mud Bricks + Variants                        | 2–6 Diamonds / stack  |
-| Resin Clump                                  | 2–6 Diamonds / stack  |
-| Resin Block / Bricks / Chiseled Resin Bricks | 3–8 Diamonds / stack  |
-| Resin Brick Slab / Stairs / Wall             | 3–8 Diamonds / stack  |
-| End Stone Bricks                             | 2–6 Diamonds / stack  |
+| Item                                                           | Price Range           |
+| -------------------------------------------------------------- | --------------------- |
+| Stone / Cobblestone                                            | 1–4 Diamonds / stack  |
+| Granite / Diorite / Andesite                                   | 1–4 Diamonds / stack  |
+| Deepslate (All Variants)                                       | 1–4 Diamonds / stack  |
+| Tuff (All Variants)                                            | 2–6 Diamonds / stack  |
+| Calcite                                                        | 2–6 Diamonds / stack  |
+| Smooth Stone                                                   | 1–4 Diamonds / stack  |
+| Quartz Block / Bricks                                          | 4–10 Diamonds / stack |
+| End Stone                                                      | 1–4 Diamonds / stack  |
+| Stone Bricks                                                   | 1–4 Diamonds / stack  |
+| Deepslate Bricks / Tiles                                       | 2–6 Diamonds / stack  |
+| Tuff Bricks                                                    | 2–6 Diamonds / stack  |
+| Polished Variants                                              | 2–6 Diamonds / stack  |
+| Gravel                                                         | 1–4 Diamonds / stack  |
+| Sandstone                                                      | 2–6 Diamonds / stack  |
+| Red Sandstone                                                  | 2–6 Diamonds / stack  |
+| Walls (All Types)                                              | 2–6 Diamonds / stack  |
+| Mossy Cobblestone / Mossy Stone Bricks                         | 2–6 Diamonds / stack  |
+| Chiseled Variants (All Types)                                  | 2–6 Diamonds / stack  |
+| Purpur Block / Pillar / Slab / Stairs                          | 2–6 Diamonds / stack  |
+| Dripstone Block / Pointed Dripstone                            | 2–6 Diamonds / stack  |
+| Bricks (Clay)                                                  | 2–6 Diamonds / stack  |
+| Mud Bricks + Variants                                          | 2–6 Diamonds / stack  |
+| Resin Clump                                                    | 2–6 Diamonds / stack  |
+| Resin Block / Bricks / Chiseled Resin Bricks                   | 3–8 Diamonds / stack  |
+| Resin Brick Slab / Stairs / Wall                               | 3–8 Diamonds / stack  |
+| End Stone Bricks                                               | 2–6 Diamonds / stack  |
+| Cinnabar / Polished / Bricks / Chiseled + Slab / Stairs / Wall | 2–6 Diamonds / stack  |
+| Sulfur / Polished / Bricks / Chiseled + Slab / Stairs / Wall   | 2–6 Diamonds / stack  |
+| Sulfur Spike                                                   | 2–6 Diamonds / stack  |
+| Potent Sulfur                                                  | 4–12 Diamonds / stack |
 
 ***
 
@@ -189,9 +193,11 @@ These ranges prevent hyper-inflation and keep the economy moving. Following thes
 | Bamboo                                                                          | 1–3 Diamonds / stack |
 | Warped / Crimson Roots                                                          | 1–4 Diamonds / stack |
 | Mushrooms (All Types)                                                           | 2–5 Diamonds / stack |
+| Shelf Mushroom                                                                  | 2–5 Diamonds / stack |
 | Common Flowers (Dandelion, Poppy, Tulips, Azure Bluet, Oxeye Daisy, Cornflower) | 1–4 Diamonds / stack |
 | Biome-Rare Flowers (Blue Orchid, Allium, Lily of the Valley, Wildflowers)       | 2–6 Diamonds / stack |
 | Tall Flowers (Sunflowers, Lilacs, Rose Bushes, Peonies)                         | 3–6 Diamonds / stack |
+| Golden Dandelion                                                                | 3–8 Diamonds / stack |
 | Grass / Tall Grass                                                              | 1–3 Diamonds / stack |
 | Ferns                                                                           | 1–3 Diamonds / stack |
 | Dead Bush                                                                       | 1–3 Diamonds / stack |
@@ -203,6 +209,7 @@ These ranges prevent hyper-inflation and keep the economy moving. Following thes
 | Open / Closed Eyeblossom                                                        | 2–5 Diamonds / stack |
 | Firefly Bush                                                                    | 2–5 Diamonds / stack |
 | Bush                                                                            | 1–4 Diamonds / stack |
+| Red Shrub                                                                       | 1–4 Diamonds / stack |
 | Leaf Litter                                                                     | 1–4 Diamonds / stack |
 | Wildflowers                                                                     | 1–4 Diamonds / stack |
 | Cactus Flower                                                                   | 1–4 Diamonds / stack |
@@ -308,36 +315,40 @@ These ranges prevent hyper-inflation and keep the economy moving. Following thes
 
 ### 🏗️ Building Blocks Shop
 
-| Item                              | Price Range           |
-| --------------------------------- | --------------------- |
-| Terracotta (Any Color)            | 2–10 Diamonds / stack |
-| Glazed Terracotta (Any Color)     | 3–8 Diamonds / stack  |
-| Concrete (Any Color)              | 2–10 Diamonds / stack |
-| Concrete Powder (Any Color)       | 2–8 Diamonds / stack  |
-| Wool (Any Color)                  | 1–6 Diamonds / stack  |
-| Carpet (Any Color)                | 1–6 Diamonds / stack  |
-| Beds (Any Color)                  | 1–6 Diamonds          |
-| Glass                             | 1–4 Diamonds / stack  |
-| Glass Pane                        | 1–4 Diamonds / stack  |
-| Stained Glass / Panes (Any Color) | 1–4 Diamonds / stack  |
-| Tinted Glass                      | 2–6 Diamonds / stack  |
-| Iron Bars                         | 1–4 Diamonds / stack  |
-| Chain (Iron)                      | 2–6 Diamonds / stack  |
-| Item Frame                        | 1–4 Diamonds / stack  |
-| Armor Stand                       | 2–6 Diamonds          |
-| Flower Pot                        | 1–3 Diamonds          |
-| Decorated Pot                     | 4–12 Diamonds         |
-| Banner (Any Color)                | 2–6 Diamonds          |
-| Banner Pattern (Any Type)         | 3–10 Diamonds         |
-| Iron Door / Iron Trapdoor         | 3–8 Diamonds          |
-| Scaffolding                       | 2–6 Diamonds / stack  |
-| Cobweb                            | 3–8 Diamonds / stack  |
-| Snow / Snow Block / Powder Snow   | 1–4 Diamonds / stack  |
-| Ice / Packed Ice / Blue Ice       | 2–8 Diamonds / stack  |
-| Bone Block                        | 2–6 Diamonds / stack  |
-| Painting                          | 2–6 Diamonds          |
-| Snowball                          | 1–3 Diamonds / stack  |
-| Glow Item Frame                   | 2–6 Diamonds / stack  |
+| Item                                | Price Range           |
+| ----------------------------------- | --------------------- |
+| Terracotta (Any Color)              | 2–10 Diamonds / stack |
+| Glazed Terracotta (Any Color)       | 3–8 Diamonds / stack  |
+| Concrete (Any Color)                | 2–10 Diamonds / stack |
+| Concrete Powder (Any Color)         | 2–8 Diamonds / stack  |
+| Concrete Stairs / Slabs (Any Color) | 2–10 Diamonds / stack |
+| Wool (Any Color)                    | 1–6 Diamonds / stack  |
+| Carpet (Any Color)                  | 1–6 Diamonds / stack  |
+| Wool Stairs / Slabs (Any Color)     | 1–6 Diamonds / stack  |
+| Cushions (Any Color)                | 1–6 Diamonds          |
+| Beds (Any Color)                    | 1–6 Diamonds          |
+| Straw Bed                           | 1–6 Diamonds          |
+| Glass                               | 1–4 Diamonds / stack  |
+| Glass Pane                          | 1–4 Diamonds / stack  |
+| Stained Glass / Panes (Any Color)   | 1–4 Diamonds / stack  |
+| Tinted Glass                        | 2–6 Diamonds / stack  |
+| Iron Bars                           | 1–4 Diamonds / stack  |
+| Chain (Iron)                        | 2–6 Diamonds / stack  |
+| Item Frame                          | 1–4 Diamonds / stack  |
+| Armor Stand                         | 2–6 Diamonds          |
+| Flower Pot                          | 1–3 Diamonds          |
+| Decorated Pot                       | 4–12 Diamonds         |
+| Banner (Any Color)                  | 2–6 Diamonds          |
+| Banner Pattern (Any Type)           | 3–10 Diamonds         |
+| Iron Door / Iron Trapdoor           | 3–8 Diamonds          |
+| Scaffolding                         | 2–6 Diamonds / stack  |
+| Cobweb                              | 3–8 Diamonds / stack  |
+| Snow / Snow Block / Powder Snow     | 1–4 Diamonds / stack  |
+| Ice / Packed Ice / Blue Ice         | 2–8 Diamonds / stack  |
+| Bone Block                          | 2–6 Diamonds / stack  |
+| Painting                            | 2–6 Diamonds          |
+| Snowball                            | 1–3 Diamonds / stack  |
+| Glow Item Frame                     | 2–6 Diamonds / stack  |
 
 ***
 
@@ -364,26 +375,27 @@ These ranges prevent hyper-inflation and keep the economy moving. Following thes
 
 ### 🛠️ Utility Shop
 
-| Item                    | Price Range          |
-| ----------------------- | -------------------- |
-| Chest / Barrel          | 2–6 Diamonds         |
-| Ender Chest             | 8–16 Diamonds        |
-| Shulker Box (Any Color) | 10–25 Diamonds       |
-| Ladder                  | 1–4 Diamonds / stack |
-| Bell                    | 5–12 Diamonds        |
-| Lodestone               | 8–20 Diamonds        |
-| Respawn Anchor          | 10–25 Diamonds       |
-| TNT                     | 3–8 Diamonds / stack |
-| Compass                 | 2–5 Diamonds         |
-| Recovery Compass        | 15–30 Diamonds       |
-| Clock                   | 2–5 Diamonds         |
-| Empty Map               | 1–4 Diamonds         |
-| Bucket (Empty)          | 2–6 Diamonds         |
-| Water / Lava Bucket     | 2–8 Diamonds         |
-| Powder Snow Bucket      | 3–8 Diamonds         |
-| End Crystal             | 15–30 Diamonds       |
-| Beacon                  | 60–120 Diamonds      |
-| Stick                   | 1–3 Diamonds / stack |
+| Item                             | Price Range          |
+| -------------------------------- | -------------------- |
+| Chest / Barrel                   | 2–6 Diamonds         |
+| Ender Chest                      | 8–16 Diamonds        |
+| Shulker Box (Any Color)          | 10–25 Diamonds       |
+| Ladder                           | 1–4 Diamonds / stack |
+| Bell                             | 5–12 Diamonds        |
+| Lodestone                        | 8–20 Diamonds        |
+| Respawn Anchor                   | 10–25 Diamonds       |
+| TNT                              | 3–8 Diamonds / stack |
+| Compass                          | 2–5 Diamonds         |
+| Recovery Compass                 | 15–30 Diamonds       |
+| Clock                            | 2–5 Diamonds         |
+| Empty Map                        | 1–4 Diamonds         |
+| Explorer / Camp Maps (All Types) | 5–15 Diamonds        |
+| Bucket (Empty)                   | 2–6 Diamonds         |
+| Water / Lava Bucket              | 2–8 Diamonds         |
+| Powder Snow Bucket               | 3–8 Diamonds         |
+| End Crystal                      | 15–30 Diamonds       |
+| Beacon                           | 60–120 Diamonds      |
+| Stick                            | 1–3 Diamonds / stack |
 
 ***
 
@@ -753,6 +765,7 @@ All relics — weapons, armor, and tools alike — are grouped here by the crate
 | Frogspawn                  | 3–8 Diamonds              |
 | Bucket of Tadpole          | 3–8 Diamonds              |
 | Axolotls                   | 3–8 Diamonds per bucket   |
+| Bucket of Sulfur Cube      | 3–8 Diamonds per bucket   |
 | Blue Axolotl               | 40–80 Diamonds per bucket |
 
 ***
@@ -771,10 +784,10 @@ All relics — weapons, armor, and tools alike — are grouped here by the crate
 
 ### 💿 Disc Shop
 
-| Item                                                                         | Price Range   |
-| ---------------------------------------------------------------------------- | ------------- |
-| Music Discs (All Types incl. Relic, Creator, Precipice, Tears, Lava Chicken) | 5–80 Diamonds |
-| Disc Fragment (5)                                                            | 3–10 Diamonds |
+| Item                                                                                 | Price Range   |
+| ------------------------------------------------------------------------------------ | ------------- |
+| Music Discs (All Types incl. Relic, Creator, Precipice, Tears, Lava Chicken, Bounce) | 5–80 Diamonds |
+| Disc Fragment (5)                                                                    | 3–10 Diamonds |
 
 ***
 
@@ -839,7 +852,7 @@ All relics — weapons, armor, and tools alike — are grouped here by the crate
 * Shopkeepers must be in use and not kept in chests; if you don't need your shopkeeper, return it to staff.
 * Diamonds and Diamond Blocks may not be sold — they are the currency. Diamond Ore may be sold as a decorative block.
 * Copper Lanterns and Copper Torches are Copper Shop items, not Light Shop.
-* Decorative Shelves (all 12 types) are Wood Shop items, not Book Shop.
+* Decorative Shelves (all types) are Wood Shop items, not Book Shop.
 * Colour variants share one price. Selling a Cyan Bed above a White Bed is fake rarity.
 * No real estate. Claims, land, plots, bases, coordinates and pre-built structures may not be sold, traded, rented or auctioned. Labour may be sold; property may not.
 

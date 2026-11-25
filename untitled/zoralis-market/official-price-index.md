@@ -779,6 +779,7 @@ All relics — weapons, armor, and tools alike — are grouped here by the crate
 | Splash Potions    | 5–12 Diamonds  |
 | Lingering Potions | 8–16 Diamonds  |
 | Ominous Bottles   | 10–20 Diamonds |
+| Dragon's Breath   | 4–10 Diamonds  |
 
 ***
 

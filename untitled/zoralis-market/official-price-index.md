@@ -233,7 +233,6 @@ These ranges prevent hyper-inflation and keep the economy moving. Following thes
 | -------------------------------------- | --------------------- |
 | Prismarine (All Types)                 | 3–10 Diamonds / stack |
 | Sponge / Wet Sponge                    | 8–18 Diamonds         |
-| Nautilus Shell                         | 5–12 Diamonds         |
 | Heart of the Sea                       | 20–45 Diamonds        |
 | Conduit                                | 60–100 Diamonds       |
 | Sea Pickle                             | 2–6 Diamonds / stack  |
@@ -503,6 +502,7 @@ These ranges prevent hyper-inflation and keep the economy moving. Following thes
 | Ender Pearls          | 2–5 Diamonds / stack  |
 | Eyes of Ender         | 1–2 Diamonds each     |
 | Shulker Shell         | 4–10 Diamonds each    |
+| Nautilus Shell        | 5–12 Diamonds         |
 | Breeze Rods           | 4–10 Diamonds / stack |
 | Wind Charges          | 1–4 Diamonds / stack  |
 | Dried Ghasts          | 8–25 Diamonds         |
